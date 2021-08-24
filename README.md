@@ -5,11 +5,11 @@ exports["cad-cooldown"]:CheckCooldown()        [ returns True or False ]
 # Callback Method
 
 QBCore.Functions.TriggerCallback("cad-cooldown:server:checkcooldown", function(bool)
-if bool then
--- if true then what to do
-else
--- if false then what to do
-end
+    if bool then
+    -- if true then what to do
+    else
+    -- if false then what to do
+    end
 end)
 
 

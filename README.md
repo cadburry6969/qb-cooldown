@@ -12,7 +12,6 @@ else
 end
 end)
 
----
 
 * In Config you can set the cooldown timer
 

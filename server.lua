@@ -17,7 +17,7 @@ AddEventHandler("cad-cooldown:server:coolsync", function(bool)
 end)
 
 QBCore.Functions.CreateCallback("cad-cooldown:server:checkcooldown", function(source, cb)
-    if isCooldown then
+    if not isCooldown then
         cb(true)
     else
         cb(false)

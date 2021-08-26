@@ -15,7 +15,3 @@ end)
 
 * In Config you can set the cooldown timer
 
----
-
-
-**If you want help in setting this up for your server then join @ discord.gg/9tyjPkA6nd****

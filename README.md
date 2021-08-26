@@ -1,6 +1,8 @@
 # Export Method
 
-exports["cad-cooldown"]:CheckCooldown()        [ returns True or False ]
+exports["cad-cooldown"]:CheckCooldown()     [ returns True or False ]
+* True: you can start rob
+* False: cooldown enabled
 
 # Callback Method
 

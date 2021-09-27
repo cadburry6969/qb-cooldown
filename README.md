@@ -7,13 +7,12 @@ exports["qb-cooldown"]:CheckCooldown()     [ returns True or False ]
 # Callback Method
 
 QBCore.Functions.TriggerCallback("cad-cooldown:server:checkcooldown", function(bool)
-    if bool then
-    --> true <--
+    if bool then        
+        --> Cooldown Active <--
     else
-    --> false <--
+        --> Cooldown InActive <--
     end
 end)
 
 
 * In Config you can set the cooldown timer
-

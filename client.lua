@@ -1,9 +1,9 @@
 function CheckCooldown()
     QBCore.Functions.TriggerCallback("cad-cooldown:server:checkcooldown", function(bool)
         if bool then
-            return true
-        else
             return false
+        else
+            return true
         end
     end)
 end

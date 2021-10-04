@@ -23,3 +23,11 @@ QBCore.Functions.CreateCallback("cad-cooldown:server:checkcooldown", function(so
         cb(false)
     end
 end)
+
+QBCore.Commands.Add("cooldown", "Toggle Robbery Cooldown", {{name="state", help="true/false"}}, false, function(src, args)    
+    if tostring(args[1]) == "true" then
+        isCooldown = true
+    elseif tostring(args[1]) == "false" then
+        isCooldown = false
+    end    
+end, 'admin')

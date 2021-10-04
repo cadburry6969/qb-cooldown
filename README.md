@@ -1,8 +1,8 @@
 # Export Method
 
 exports["qb-cooldown"]:CheckCooldown()     [ returns True or False ]
-* True: you can start rob
-* False: cooldown enabled
+* True: Cooldown active
+* False: cooldown deactive
 
 # Callback Method
 

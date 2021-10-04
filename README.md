@@ -1,8 +1,8 @@
 # Export Method
 
 exports["qb-cooldown"]:CheckCooldown()     [ returns True or False ]
-* True: Cooldown active
-* False: cooldown deactive
+* True: Cooldown deactive
+* False: cooldown active
 
 # Callback Method
 

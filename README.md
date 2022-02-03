@@ -6,6 +6,7 @@ exports["qb-cooldown"]:CheckCooldown()     [ returns True or False ]
 
 # Callback Method
 
+```lua
 QBCore.Functions.TriggerCallback("cad-cooldown:server:checkcooldown", function(bool)
     if bool then        
         --> Cooldown Active <--
@@ -13,6 +14,6 @@ QBCore.Functions.TriggerCallback("cad-cooldown:server:checkcooldown", function(b
         --> Cooldown InActive <--
     end
 end)
-
+```
 
 * In Config you can set the cooldown timer

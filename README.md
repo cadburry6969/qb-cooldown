@@ -1,6 +1,7 @@
 # Export Method
 
-exports["qb-cooldown"]:CheckCooldown()     [ returns True or False ]
+`exports["qb-cooldown"]:CheckCooldown()     [ returns True or False ]`
+
 * True: Cooldown deactive
 * False: cooldown active
 
@@ -8,7 +9,7 @@ exports["qb-cooldown"]:CheckCooldown()     [ returns True or False ]
 
 ```lua
 QBCore.Functions.TriggerCallback("cad-cooldown:server:checkcooldown", function(bool)
-    if bool then        
+    if bool then      
         --> Cooldown Active <--
     else
         --> Cooldown InActive <--

@@ -1,10 +1,11 @@
+local QBCore = exports['qb-core']:GetCoreObject()
 local isCooldown = false
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do        
-        Citizen.Wait(1000)
+        Wait(1000)
         if isCooldown then
-            Citizen.SetTimeout(Config.CooldownTimer * 60 * 1000, function()
+            SetTimeout(Config.CooldownTimer * 60 * 1000, function()
                 isCooldown = false
             end)   
         end         

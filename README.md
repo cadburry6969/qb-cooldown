@@ -1,3 +1,5 @@
+# Not Maintained! Use [cad-cooldown](https://github.com/cadburry6969/cad-cooldown) instead.
+
 # Export Method
 
 `exports["qb-cooldown"]:CheckCooldown()`   -- [ returns True or False ]
